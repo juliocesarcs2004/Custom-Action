@@ -11,6 +11,9 @@
     "test": "vitest run"
   },
   "dependencies": {
+    "@actions/core": "^1.11.1",
+    "@actions/exec": "^1.1.1",
+    "@actions/github": "^6.0.1",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
@@ -21,12 +24,12 @@
     "@testing-library/user-event": "^14.4.3",
     "@types/react": "^18.0.17",
     "@types/react-dom": "^18.0.6",
-    "@vitejs/plugin-react": "^2.0.1",
+    "@vitejs/plugin-react": "^5.0.3",
     "eslint": "^8.23.0",
     "eslint-plugin-react": "^7.31.1",
     "jsdom": "^20.0.0",
-    "vite": "^3.0.7",
+    "vite": "^7.1.7",
     "vite-plugin-eslint": "^1.8.1",
-    "vitest": "^0.22.1"
+    "vitest": "^3.2.4"
   }
 }
